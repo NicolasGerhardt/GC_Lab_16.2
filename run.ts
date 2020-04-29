@@ -14,6 +14,12 @@ const mountains:Mountian[] = [{
     height:20310
 }];
 
+
+/**
+ * Finds the name of the tallest Mountain in an array of mountains and then returns the name of the tallest.
+ * @param  {Mountain[]} mountains An array of mountains.
+ * @return {string}      as long as a mountain is taller than 0, it will return the name of the mountain. 
+ */
 function findNameOfTallestMountain(mountains:Mountian[]):string {
     let tallest:Mountian = {name:'Sea Level', height:0};
 
@@ -45,6 +51,7 @@ const products:Product[] = [{
     name:'Dragonslayer Novel',
     price:1.80
 }]
+
 
 function calcAverageProductPrice(products:Product[]):number {
     let sumProductPrice:number = 0;
